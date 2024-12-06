@@ -1,0 +1,54 @@
+/* MusicPlayer.css */
+
+.music-player {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4caf50, #8bc34a);
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.song-details {
+  margin: 20px 0;
+}
+
+.song-details h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.song-details p {
+  font-size: 16px;
+  color: #e0f2f1;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #4caf50;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8bc34a;
+  color: white;
+}
